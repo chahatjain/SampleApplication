@@ -13,7 +13,9 @@ namespace SampleApplication1.Controllers
 
         public String Index()
         {
-            return "hello World";
+            string s1 = "hello World";
+            string s2 = "chahat jain";
+            return s1 + s2;
         }
 
     }
